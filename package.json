@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "description": "trabajar con asincronismo en JavaScript",
   "main": "src/index.js",
+  "type": "module",
   "scripts": {
-    "callback": "node src/callback/index.js"
+    "callback": "node src/callback/index.js",
+    "callback-challenge": "node src/callback/challenge.js"
   },
   "keywords": [
     "callback",
@@ -12,5 +14,8 @@
     "async"
   ],
   "author": "Julián Melero",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "node-fetch": "^3.1.0"
+  }
 }
